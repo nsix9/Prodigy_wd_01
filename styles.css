@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4f2de6;
+    padding: 15px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration:none;
+    color: rgb(252, 252, 249);
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0cdcef;
+}
+
+.scrolled {
+    background-color: #f80a0a;
+}
+
+.section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#home {
+    background-color: #abbcf4;
+}
+
+#about {
+    background-color: #cdb2f7;
+}
+
+#services {
+    background-color: #e8b3f5;
+}
+
+#contact {
+    background-color: #dedcdc;
+}
